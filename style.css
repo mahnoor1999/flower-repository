@@ -1,0 +1,90 @@
+body{
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#call{
+    border-radius: 14px;
+   
+    font-size: 1.1em;
+    padding: 8px;
+    border: 0.5px solid darkgray;
+    background-color: rgb(209, 209, 209);   
+    margin: auto 8px;
+}
+#side-logo>img{
+    margin: auto 8px;
+}
+header{
+    border-top: #8bd4c3 3px solid;
+}
+
+nav>ul>li{
+    list-style-type: none;
+    display: inline-block;
+    margin: auto 15px;
+    color: #848484;
+    
+}
+nav>ul{
+    margin: 0px 90px;
+}
+nav{
+    margin:3px 5px;
+    border: 0.5px solid #e8e8e8;
+    padding: 10px 0px;
+}
+#why-us{
+    color:white;
+    background-color: #84d7c7;
+    padding: 0.6em 0.9em;
+}
+#product-description{
+    display: flex;
+    text-align: justify; 
+    
+}
+#product-description{
+    padding-right: 29em;
+}
+article> #home-heading{
+    color: #848484;
+}
+a, #add-wish{
+    text-decoration: none;
+    color:#51ceb5 ;
+}
+#cart{
+    color: white;
+    background-color: #c63928;
+    border: none;
+    padding: 0.5em 0.8em;
+}
+#cart:hover{
+    background-color: #f0776a;
+
+}
+.connect-btn{
+    color: #80bdae;
+    background-color:white;
+    border-color: #80bdae ;
+    padding:0.2em 0.3em;
+    border-radius: 6em;
+    border-width: 3px;
+}
+.heading-3{
+    color: #3548d3;
+}
+
+#related-images{
+    display: flex;
+}
+#description, #faqs, #related-products >h3{
+margin: 3px 60px;
+line-height: 23px;
+}
+   
