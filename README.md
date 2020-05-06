@@ -1,3 +1,3 @@
-# flower-repository
+# flower-Studio
 Here's the link 
 https://mahnoor1999.github.io/flower-repository/
