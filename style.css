@@ -36,12 +36,13 @@ nav>ul{
 nav{
     margin:3px 5px;
     border: 0.5px solid #e8e8e8;
-    padding: 10px 0px;
+    padding: 10px 0px 38px 0px;
 }
 #why-us{
     color:white;
     background-color: #84d7c7;
-    padding: 0.6em 0.9em;
+    padding: 0.4em 0.9em;
+    border: none;
 }
 #product-description{
     display: flex;
@@ -87,4 +88,37 @@ a, #add-wish{
 margin: 3px 60px;
 line-height: 23px;
 }
-   
+  /* for dropdown in nav bar */
+  ul{
+      list-style: none;
+  }
+  nav>ul>li{
+      position: relative;
+    float:left
+  }
+  .occasions{
+    display: none;
+    position: absolute;
+    left:-50px;
+
+  }
+  nav li:hover ul{
+    display: block;
+    padding-top: 2px ;
+  }
+  
+.occasions>li{
+    border: 1px solid #f0f0f0;
+    padding: 4px 18px;
+    width: 13em;
+    background-color: white;
+    margin-top: 0px;
+}
+.occasions>li:hover{
+    background-color:  #f0f0f0;
+}
+.occasions li:first-child{
+    border-top: none;
+    padding-top: 8px ;
+    margin-top: 9px;
+}
