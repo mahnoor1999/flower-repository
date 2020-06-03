@@ -96,7 +96,7 @@ line-height: 23px;
       position: relative;
     float:left
   }
-  .occasions{
+  .drop-content{
     display: none;
     position: absolute;
     left:-50px;
@@ -107,17 +107,17 @@ line-height: 23px;
     padding-top: 2px ;
   }
   
-.occasions>li{
+.drop-content>li{
     border: 1px solid #f0f0f0;
     padding: 4px 18px;
     width: 13em;
     background-color: white;
     margin-top: 0px;
 }
-.occasions>li:hover{
+.drop-content>li:hover{
     background-color:  #f0f0f0;
 }
-.occasions li:first-child{
+.drop-content li:first-child{
     border-top: none;
     padding-top: 8px ;
     margin-top: 9px;
